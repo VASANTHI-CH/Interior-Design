@@ -1,0 +1,86 @@
+*{
+    
+
+    margin:0;
+    padding:0;
+    font-family: Century Gothic;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?cs=srgb&dl=pexels-vecislavas-popa-1669799.jpg&fm=jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+ul{
+    
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+
+ul li{
+    display: inline-block;
+   
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    
+}
+ul li a:hover{
+    
+    text-decoration: underline;
+    color: aquamarine;
+}
+div{
+    color: white;
+    margin-top: 15px;
+    margin-left: 45px;
+    
+
+}
+div h1{
+    margin-top: 150px;
+    margin-left: 320px;
+    font-size: 50px;
+}
+div p{
+    margin-left: 400px;
+    font-size:  10px;
+}
+.yes{
+    margin-left: 450px;
+    font-size:10px ;
+}
+div a{
+    color:white;
+    text-decoration: none;
+}
+div a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.box1{
+    color: white;
+    position: absolute;
+    bottom: 193px;
+    left: 32%;
+    border: 1px solid green;
+    padding: 10px 30px 15px 30px;
+    border-radius: 20px 20px 20px 20px;
+    text-decoration: none;
+}
+.box2{
+
+    color: white;
+    position: absolute;
+    bottom: 193px;
+    left: 52%;
+    border: 1px solid green;
+    padding: 15px 30px 15px 30px;
+      
+}
+
